@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box; 
+    box-sizing:border-box ;
 
 }
 
@@ -18,7 +18,10 @@ body {
     align-items: center;
     margin-top: 7rem;
 }
-     
+.button-design {
+     width: 8rem;
+    
+}
     
 .calc-section {
     display: flex;
@@ -51,7 +54,7 @@ body {
     padding: 95px;
 }
 #but1{
-    width: 160px;
+    width: 17rem;
 }
 #black{
     background-color: rgb(158, 135, 135);
