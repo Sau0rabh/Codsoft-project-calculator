@@ -11,12 +11,12 @@
     <div class="cont">
       <div class="calc">
          <form action="">
-              <div class="ans">
-                <input type="text" name="display">
+              <div class="calc-section">
+                <input class="calc-section main" type="text" name="display">
                </div>
                 <div>
-                    <input type="button" value="AC" onclick="display.value = ' '" id="red">
-                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" id="red">
+                    <input type="button" value="AC" onclick="display.value = ' '" id="black">
+                    <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1)" id="black">
                     <input type="button" value="." onclick="display.value += '.'">
                     <input type="button" value="/" onclick="display.value += '/'">
                 </div>
@@ -41,7 +41,7 @@
                  <div>
                     <input type="button" value="%" onclick="display.value += '%'">
                     <input type="button" value="0" onclick="display.value += '0'">
-                    <input type="button" value="=" id="eq" onclick="display.value = eval(display.value)" >
+                    <input type="button" value="=" id="but1" onclick="display.value = eval(display.value)" >
                 </div>
                 
 
